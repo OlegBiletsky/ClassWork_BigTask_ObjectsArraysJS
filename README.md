@@ -12,15 +12,18 @@
 >
 4. Якщо юзер хоче додати більше інформації - ми ці дані маємо зберегти в обєкті наступного вигляду:
 >
+`
 {
     name: "Nature/change? ", 
     actual: true/false,  
     types: ["qwe", "qwe"], 
     closestTime: tomorrow/ 02.10.2020
 }. 
+`
 >
 Вивести фінальну колекцію після всіх змін.
 >
+`
 let users = [
     {
         name: "Yulian",
@@ -36,3 +39,4 @@ let users = [
         dreams: []
     },
 ];
+`
