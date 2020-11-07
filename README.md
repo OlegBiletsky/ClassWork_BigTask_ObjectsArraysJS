@@ -2,7 +2,27 @@
 >
 ## Practice-Objects
 >
-У нас є колекція данних. Наше завданя, перевірити чи є в юзера поля, де зберігаються масиви та дати можливість юзеру більш детально описати їх.
+У нас є колекція данних. 
+>
+`
+let users = [
+    {
+        name: "Yulian",
+        age: 28,
+        hobby: ["Nature", "Films", "Games", "traveling"],
+        job: ["Softserve", "ITClusterAcademy"]
+    },
+    {
+        name: "Olexander",
+        age: 20,
+        hobby: ["fishing", "hiking", "football"],
+        job: null,
+        dreams: []
+    },
+];
+
+>`
+Наше завданя, перевірити чи є в юзера поля, де зберігаються масиви та дати можливість юзеру більш детально описати їх.
 >
 1. Вивести назви полів де є масиви. 
 >
@@ -23,20 +43,4 @@
 >
 Вивести фінальну колекцію після всіх змін.
 >
-`
-let users = [
-    {
-        name: "Yulian",
-        age: 28,
-        hobby: ["Nature", "Films", "Games", "traveling"],
-        job: ["Softserve", "ITClusterAcademy"]
-    },
-    {
-        name: "Olexander",
-        age: 20,
-        hobby: ["fishing", "hiking", "football"],
-        job: null,
-        dreams: []
-    },
-];
-`
+
